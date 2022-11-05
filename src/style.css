@@ -3,28 +3,39 @@
     --primary-color:#22223B;
     --secundary-color: #F2E9E4;
 }
+h2{
+    font-size: 64px;
+}
+p{
+    font-size: 16px;
+    line-height: 30px;
+}
+.space{
+    padding: 120px 60px;
+}
 .principal{
     text-align: center;
     color: var(--primary-color);
     padding: 160px 20px;
     background-color: var(--secundary-color)
 }
-
-h1{
-    font-size: 96px;
-}
-h2{
-    font-size: 24px;
-    font-weight: 500;
-}
-p{
-    font-size: 36px;
-    margin: 0;
-}
 .principal{
     padding: 160px 20px;
     
 }
+.principal h1{
+    font-size: 96px;
+    line-height: 1.5;
+}
+.principal h2{
+    font-size: 24px;
+    font-weight: 500;
+}
+.principal p{
+    font-size: 36px;
+    margin: 0;
+}
+
 .contact-button{
     background-color: var(--primary-color);
     color: white;
@@ -32,6 +43,32 @@ p{
     border-radius: 4px;
 }
 .contact-button:hover{
-    border: solid;
+    border: 1px solid;
     font-weight: 500;
+}
+.button-projects{
+    background-color: white;
+    color: var(--primary-color);
+    padding: 15px 30px;
+    border-radius: 4px;
+    border: 1px solid;
+}
+.button-projects:hover{
+    border: 1px solid #F2E9E4;
+}
+@media (max-width:960px){
+    h2{
+        font-size: 43px;
+    }
+    .principal{
+    padding: 80px 20px;
+    }
+    .principal h1{
+    font-size: 43px;
+    line-height: 2;
+    }
+    .space{
+        padding: 0;
+        text-align: center;
+    }
 }
