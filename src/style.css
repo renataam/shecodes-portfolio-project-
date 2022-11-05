@@ -1,3 +1,36 @@
+
+:root{
+    --primary-color:#22223B;
+}
 *{
     text-align: center;
+    color: var(--primary-color);
+}
+body{
+    background-color: #F2E9E4;
+}
+h1{
+    font-size: 96px;
+}
+h2{
+    font-size: 24px;
+    font-weight: 500;
+}
+p{
+    font-size: 36px;
+    margin: 0;
+}
+.principal{
+    padding: 160px 20px;
+    
+}
+.contact-button{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 15px 30px;
+    border-radius: 4px;
+}
+.contact-button:hover{
+    border: solid;
+    font-weight: 500;
 }
