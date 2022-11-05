@@ -1,14 +1,15 @@
 
 :root{
     --primary-color:#22223B;
+    --secundary-color: #F2E9E4;
 }
-*{
+.principal{
     text-align: center;
     color: var(--primary-color);
+    padding: 160px 20px;
+    background-color: var(--secundary-color)
 }
-body{
-    background-color: #F2E9E4;
-}
+
 h1{
     font-size: 96px;
 }
