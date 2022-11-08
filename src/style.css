@@ -2,6 +2,8 @@
 :root{
     --primary-color: black;
     --secundary-color:#F9F7FE;
+    --tertiary-color:#272142;
+    --quaternary-color:#6C63FF;
 }
 h2{
     font-size: 64px;
@@ -16,6 +18,7 @@ p{
 .space{
     padding: 120px 60px;
 }
+/*hero*/
 .principal{
     text-align: center;
     color: var(--primary-color);
@@ -23,8 +26,7 @@ p{
     background-color: var(--secundary-color)
 }
 .principal{
-    padding: 160px 20px;
-    
+    padding: 160px 20px;   
 }
 .principal h1{
     font-family: 'Playfair Display', serif;
@@ -33,13 +35,13 @@ p{
     line-height: 1.5;
 }
 .principal h2{
-    color: #272142;
+    color: var(--tertiary-color);
     font-size: 24px;
     font-weight: 400;
     font-family: 'Poppins', sans-serif;
 }
 .principal p{
-    color: #272142;
+    color: var(--tertiary-color);
     font-family: 'Poppins', sans-serif;
     font-size: 36px;
     font-weight: 700;
@@ -47,7 +49,7 @@ p{
 }
 
 .contact-button{
-    background-color:#6C63FF;
+    background-color:var(--quaternary-color);
     color: white;
     padding: 15px 30px;
     border-radius: 4px;
@@ -60,17 +62,39 @@ p{
 }
 .button-projects{
     background-color: white;
-    color: #6C63FF;
+    color:var(--quaternary-color);
     padding: 15px 30px;
     border-radius: 4px;
-    border: 1px solid #6C63FF;
+    border: 1px solid var(--quaternary-color);
     font-family: 'Poppins', sans-serif;;
 }
 .navbar-brand, nav-link{
     font-family: 'Poppins', sans-serif;
-    color: #272142;
+    color: var(--tertiary-color);
 }
-
+/*about.html*/
+.about-section{
+    padding: 160px 20px;   
+}
+.about-section h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 64px;
+    line-height:70px;
+    color: var(--primary-color);
+}
+.about-section h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+.about-section p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+.about-section-content{
+    margin: 30px;
+}
+/*media query*/
 @media (max-width:960px){
     h2{
         font-size: 43px;
@@ -85,5 +109,9 @@ p{
     .space{
         padding: 0;
         text-align: center;
+    }
+    .about-section{
+        text-align: center;
+        padding: 0;
     }
 }
