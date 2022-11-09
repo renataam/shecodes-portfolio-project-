@@ -130,7 +130,12 @@ nav li.active a {
     color: var(--quaternary-color);
 }
 footer {
-margin: 60PX 0;
+margin: 60px 0;
+}
+footer .contact-box {
+    background-color: var(--secundary-color);
+    padding: 30px 120px;
+    border-radius: 10px;
 }
 footer .email-link{
     text-decoration: none;
@@ -154,10 +159,26 @@ footer .social-links a:hover{
     color: white;
     background-color: var(--quaternary-color);
 }
+footer h4{
+    font-family:  'Playfair Display', serif;
+    color: var(--primary-color);
+    font-size: 48px;
+}
+footer p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    margin: 0;
+}
 /*media query*/
 @media (max-width:960px){
     h2{
         font-size: 43px;
+    }
+    footer h4 {
+        font-size: 20px;
+    }
+    footer .btn {
+        font-size: 12px;
     }
     .principal{
     padding: 80px 20px;
@@ -174,4 +195,6 @@ footer .social-links a:hover{
         text-align: center;
         padding: 0;
     }
-}
+    footer .contact-box {
+    padding: 30px;
+    }
