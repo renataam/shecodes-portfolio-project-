@@ -195,7 +195,11 @@ footer p {
         text-align: center;
         padding: 0;
     }
+   
     footer .contact-box {
     padding: 30px;
+    }
+    footer p {
+        font-size: 15px;
     }
 }
