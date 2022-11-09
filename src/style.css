@@ -129,7 +129,31 @@ na a:hover{
 nav li.active a {
     color: var(--quaternary-color);
 }
-
+footer {
+margin: 60PX 0;
+}
+footer .email-link{
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+}
+footer .email-link:hover {
+    color: var(--quaternary-color);
+}
+footer .social-links a {
+    margin: 0 20px;
+    color: var(--quaternary-color);
+    background-color: var(--secundary-color);
+    padding: 10px 14px;
+    font-size: 18px;
+    border-radius: 50%;
+    transition: all 100ms ease-in-out;
+}
+footer .social-links a:hover{
+    color: white;
+    background-color: var(--quaternary-color);
+}
 /*media query*/
 @media (max-width:960px){
     h2{
