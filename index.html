@@ -21,22 +21,24 @@
     <!--css link-->
     <link rel="stylesheet" href="src/style.css">
 
-    <title>Renata Monteiro Front-end developer based in Brazil </title>
+    <meta name="description" content="Renata Monteiro is a Front-end developer based in Brazil"> 
+
+    <title>Renata Monteiro Front-end developer</title>
 </head>
 <body>
 <!--nav bar myself doing-->
 <div class="container">
  <nav class="d-flex justify-content-between"> <!--essa "class" foi para comolocar os <li> no lado direito da página (tem que estar dentro de uma div, repere!)-->
-  <a href="/"><img src="images/logo.png" class="logo d-none d-md-block" alt="site logo"></a>
+  <a href="/"><img src="images/logo.png" class="logo d-none d-md-block" alt="site logo" title="Homepage"></a>
   <!--d-none d-md-block (some o logo grande em tela pequena)
       d-block d-md-none (aparece o logo penqueno em tela pequena)
   -->
-  <a href="/"><img src="images/logo-small.jpg" class="logo d-block d-md-none" alt=""></a>
+  <a href="/"><img src="images/logo-small.jpg" class="logo d-block d-md-none" alt="site logo small" title="Homepage"></a>
    <ul>
-    <li class="active"><a href="/">Home</a></li>
-    <li><a href="about.html">About</a></li>
-    <li><a href="work.html">Work</a></li>
-    <li><a href="contact.html">Contact</a></li>
+    <li class="active"><a href="/" title="Homepage">Home</a></li>
+    <li><a href="/about.html" title="About Renata">About</a></li>
+    <li><a href="/work.html" title="Renata's Work">Work</a></li>
+    <li><a href="/contact.html" title="Renata Contact">Contact</a></li>
    </ul>
   </nav>
 </div>
@@ -46,19 +48,19 @@
      <p>Hello, I'm</p>
      <h1>Renata Monteiro</h1>
      <h2 class="mb-5">Front-end developer based in Brazil</h2>
-      <div> <a href="#" class="btn contact-button">Get started</a></div>
+      <div> <a href="/contact.html" class="btn contact-button" title="Contact Renata">Contact Me</a></div>
     </div>
     <p class="text-center m-5">See more</p>
     <div class="container">
           <div class="row mb-5">
             <div class="col d-none d-lg-block">
-                <img src="images/yogurt.png" class="img-fluid" alt="">
+                <img src="images/yogurt.png" class="img-fluid" alt="yogurt project">
             </div>
             <div class="col">
                     <div class="space">                
                         <h2 class="mb-5">Yogurt project</h2>
                          <p class="mb-5 text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis, accusamus unde. Suscipit quo tenetur qui quaerat vel exercitationem, dolorem labore omnis impedit atque illum fuga corrupti placeat, adipisci neque iusto!</p>
-                         <a href="#" class="btn button-projects">see project</a>
+                         <a href="/work.html" class="btn button-projects" title="Renata's Work">see project</a>
                     </div>
             </div>
         </div>
@@ -67,22 +69,22 @@
                     <div class="space">                
                         <h2 class="mb-5">Weather project</h2>
                          <p class="mb-5 text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia voluptatem odit esse sint dignissimos minus similique mollitia eaque? Itaque quod, harum ullam alias recusandae assumenda sed natus dicta repudiandae numquam?</p>
-                         <a href="#" class="btn button-projects">see project</a>
+                         <a href="/work.html" class="btn button-projects" title="Renata's Work">see project</a>
                     </div>
             </div>
             <div class="col d-none d-lg-block">
-                <img src="images/weather.png" class="img-fluid" alt="">
+                <img src="images/weather.png" class="img-fluid" alt="weather project">
             </div>
         </div>
          <div class="row mb-5">
             <div class="col d-none d-lg-block">
-                <img src="images/dictionary.png" class="img-fluid" alt="">
+                <img src="images/dictionary.png" class="img-fluid" alt="dictionary Project">
             </div>
             <div class="col">
                     <div class="space">                
                         <h2 class="mb-5">Dictionary project</h2>
                          <p class="mb-5 text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis, accusamus unde. Suscipit quo tenetur qui quaerat vel exercitationem, dolorem labore omnis impedit atque illum fuga corrupti placeat, adipisci neque iusto!</p>
-                         <a href="#" class="btn button-projects">see project</a>
+                         <a href="/work.html" class="btn button-projects" title="Renata's Work">see project</a>
                     </div>
             </div>
         </div>
@@ -93,16 +95,16 @@
              <p class="text-muted">Let's work together</p>
             </div>
             <div>
-             <a href="" class="btn contact-button">Let's talk here</a>
+             <a href="/contact.html" class="btn contact-button" title="Renata Contact">Let's talk here</a>
             </div>
           </div>
           <!--usei d-flex justify-content-center para centralizar (dentro de uma div)-->
           <div class="d-flex justify-content-center mb-5">
-            <a href="mailto:remonteiro@gmail.com" class="email-link">remonteiro@gmail.com</a>
+            <a href="mailto:remonteiro@gmail.com" class="email-link" title="email Renata">remonteiro@gmail.com</a>
           </div>
           <div class="social-links d-flex justify-content-center">
-            <a href="https://www.instagram.com/rere.monteiro/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-            <a href="https://github.com/renataam" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.instagram.com/rere.monteiro/" target="_blank" title="instagram profile"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://github.com/renataam" target="_blank" title="github profile"><i class="fa-brands fa-github"></i></a>
           </div>
         </footer>
     </div>

@@ -20,9 +20,27 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
     <!--css link-->
     <link rel="stylesheet" href="src/style.css">
-    <title>Work Renata Monteiro</title>
+    <meta name="description" content="Contact Renata Monteiro in Brazil"> 
+    <title>Contact Renata Monteiro</title>
 </head>
 <body>
+    <!--nav bar myself doing-->
+<div class="container">
+ <nav class="d-flex justify-content-between"> <!--essa "class" foi para comolocar os <li> no lado direito da página (tem que estar dentro de uma div, repere!)-->
+  <a href="/"><img src="images/logo.png" class="logo d-none d-md-block" alt="site logo" title="Homepage"></a>
+  <!--d-none d-md-block (some o logo grande em tela pequena)
+      d-block d-md-none (aparece o logo penqueno em tela pequena)
+  -->
+  <a href="/"><img src="images/logo-small.jpg" class="logo d-block d-md-none" alt="site logo small" title="Homepage"></a>
+   <ul>
+    <li><a href="/" title="Homepage">Home</a></li>
+    <li><a href="about.html" title="About Renata">About</a></li>
+    <li><a href="work.html" title="Renata's Work">Work</a></li>
+    <li class="active"><a href="contact.html" title="Renata Contact">Contact</a></li>
+   </ul>
+  </nav>
+</div>
+<!--nav bar myself doing-->   
     <div class="content-container container">
         <div class="content">
             <h1 class="mb-5">Let's get in touch!</h1>
@@ -31,6 +49,25 @@
             <h3>Instagram</h3>
             <p><a href="https://www.instagram.com/rere.monteiro/" target="_blank">@rere.monteiro</a></p>
         </div>
+        <footer>
+          <div class="contact-box d-flex justify-content-between mb-5">
+            <div>
+             <h4>Work Inquiry</h4>
+             <p class="text-muted">Let's work together</p>
+            </div>
+            <div>
+             <a href="/contact.html" class="btn contact-button" title="Renata Contact">Let's talk here</a>
+            </div>
+          </div>
+          <!--usei d-flex justify-content-center para centralizar (dentro de uma div)-->
+          <div class="d-flex justify-content-center mb-5">
+            <a href="mailto:remonteiro@gmail.com" class="email-link" title="email Renata">remonteiro@gmail.com</a>
+          </div>
+          <div class="social-links d-flex justify-content-center">
+            <a href="https://www.instagram.com/rere.monteiro/" target="_blank" title="instagram profile"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://github.com/renataam" target="_blank" title="github profile"><i class="fa-brands fa-github"></i></a>
+          </div>
+        </footer>
     </div> 
 </body>
 </html>

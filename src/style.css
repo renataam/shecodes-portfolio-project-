@@ -26,7 +26,7 @@ p{
     background-color: var(--secundary-color)
 }
 .principal{
-    padding: 160px 20px;   
+    padding: 100px 20px;   
 }
 .principal h1{
     font-family: 'Playfair Display', serif;
@@ -74,7 +74,7 @@ p{
 }
 /*about.html*/
 .content-container{
-    padding: 160px 20px;   
+    padding: 60px 20px;   
 }
 .content h1{
     font-family: 'Playfair Display', serif;
@@ -198,3 +198,4 @@ footer p {
     footer .contact-box {
     padding: 30px;
     }
+}
